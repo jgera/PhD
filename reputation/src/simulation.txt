@@ -1,0 +1,26 @@
+// Simulation data
+// duration --> number of time slots (mandatory)
+simulation duration=100
+
+// client parameters
+// id --> identifier (mandatory)
+// type --> {honest|cheater} (default: honest)
+// slaPonderation --> How importance provides to each SLO (mandatory)
+// startsCheating --> time where it starts cheating (default; 0)
+// stopsCheating --> time where it stops cheating (default: never)
+client id=honest_0 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_1 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_2 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_3 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_4 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_5 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_6 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_7 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_8 slaPonderation={0.2,0.2,0.2,1}
+client id=honest_9 slaPonderation={0.2,0.2,0.2,1}
+client id=cheater_0 slaPonderation={0.2,0.2,0.2,1} 
+client id=cheater_1 slaPonderation={0.2,0.2,0.2,1} startsCheating=150;
+client id=cheater_2 slaPonderation={0.2,0.2,0.2,1] startsCheating=simulationDuration/3 stopsCheating=2*simulationDuration/3;
+
+
+
